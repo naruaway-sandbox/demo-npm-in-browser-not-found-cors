@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "demo-npm-in-browser-not-found-cors",
+  "license": "CC0-1.0",
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "./node_modules/.bin/vite",
+    "build": "./node_modules/.bin/vite build",
+    "proxy": "./node_modules/.bin/tsx src/proxy.ts",
+    "proxy:watch": "./node_modules/.bin/tsx --watch src/proxy.ts"
+  },
+  "dependencies": {
+    "http-proxy": "1.18.1",
+    "memfs": "4.5.0",
+    "npm-in-browser": "0.1.2",
+    "@types/http-proxy": "1.17.12",
+    "tsx": "3.13.0",
+    "typescript": "5.2.2",
+    "vite": "4.4.9",
+    "vite-plugin-node-polyfills": "0.14.1"
+  }
+}
