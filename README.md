@@ -1,5 +1,8 @@
 # demo-npm-in-browser-not-found-cors
 
+> **Note**
+> The issue is tracked in https://github.com/naruaway/npm-in-browser/issues/1
+
 Since `registry.npmjs.org` has CORS headers (https://github.com/npm/feedback/discussions/117), we can make npm CLI work inside browser without relying on 3rd party server side.
 
 I built [npm-in-browser](https://github.com/naruaway/npm-in-browser) to realize this.
